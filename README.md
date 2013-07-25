@@ -1,7 +1,7 @@
 # Active Record Lite
 Active Record takes a lot of the grunt work out of making database queries. To understand how the world of Rails' Active Record is translated into SQL, I built my own lite version of it.
 
-Below, I highlight some of the notable facets of this project:
+Below are some noteworthy facets of this project:
 
 * **MassObject**: [mass_object.rb](https://github.com/rrzein/ActiveRecordLite/blob/master/lib/active_record_lite/mass_object.rb)
   `MassObject` is the analogue of ActiveRecord's Base class. It creates a class that includes methods for parsing query results and initializing and setting attributes for model objects.
