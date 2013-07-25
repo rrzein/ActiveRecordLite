@@ -13,4 +13,4 @@ Below are some noteworthy facets of this project:
   `Searchable` extends the SQLObject class method, allowing users to perform Active Record's `where` feature to perform more specific database queries.
 
 * **Associatable** [associatable.rb](https://github.com/rrzein/ActiveRecordLite/blob/master/lib/active_record_lite/associatable.rb)
-  * `Associatable` is the bread and butter of this Active Record "Lite" app. It defines `has_one`, `has_many`, `belongs_to`, and `has_one_through` associations between models and allows the user to perform the relevant database queries for associated models.
+  `Associatable` is the bread and butter of this Active Record "Lite" app. It defines `has_one`, `has_many`, `belongs_to`, and `has_one_through` associations between models and allows the user to perform the relevant database queries for associated models.
